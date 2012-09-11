@@ -12,4 +12,4 @@ Show me the code, one day a week.
   * [nodejs 收发邮件](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0906)
 
 
-Linus: ["Talk is cheap. Show me the code."](https://lkml.org/lkml/2000/8/25/132)
+Linus: ["Talk is cheap. Show me the code."](https://lkml.org/lkml/2000/8/25/132) 
