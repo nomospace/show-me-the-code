@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:osgi="http://www.springframework.org/schema/osgi"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/osgi
+       http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+    <bean id="updTask" class="com.snda.sysdev.cfg.task.UpdTask">
+        <property name="sleepTimeStr" value="${sleep_period}"/>
+    </bean>
+
+    <bean id="startTime" class="com.snda.sysdev.cfg.task.UpdTaskStartTime">
+        <constructor-arg name="startTime" value="${sync_start_time}"/>
+    </bean>
+
+    <bean id="updSynchronizationBean" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="updTask"/>
+        <property name="targetMethod" value="updSync"/>
+        <property name="concurrent" value="false"/>
+    </bean>
+
+    <bean id="updTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="updSynchronizationBean"/>
+        <property name="cronExpression" value="0/${sync_interval} * * * * ? *"/>
+        <property name="startTime" ref="startTime"/>
+    </bean>
+
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref local="updTrigger"/>
+            </list>
+        </property>
+    </bean>
+</beans>

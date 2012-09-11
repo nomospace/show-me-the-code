@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+    <session-factory>
+        <property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+        <property name="hibernate.cache.use_query_cache">true</property>
+        <!-- 最大连接数 -->
+        <property name="hibernate.c3p0.max_size">100</property>
+
+        <!-- 最小连接数 -->
+        <property name="hibernate.c3p0.min_size">5</property>
+
+        <!-- 获得连接的超时时间,如果超过这个时间,会抛出异常，单位毫秒 -->
+        <property name="hibernate.c3p0.timeout">120</property>
+
+        <!-- 最大的PreparedStatement的数量 -->
+        <property name="hibernate.c3p0.max_statements">100</property>
+
+        <!-- 每隔120秒检查连接池里的空闲连接 ，单位是秒-->
+        <property name="hibernate.c3p0.idle_test_period">120</property>
+
+        <!-- 当连接池里面的连接用完的时候，C3P0一下获取的新的连接数 -->
+        <property name="hibernate.c3p0.acquire_increment">10</property>
+
+        <!-- 每次都验证连接是否可用 -->
+        <property name="hibernate.c3p0.validate">true</property>
+
+        <property name="hibernate.c3p0.preferredTestQuery">'SELECT 1'</property>
+        <property name="hibernate.c3p0.idleConnectionTestPeriod">18000</property>
+        <property name="hibernate.c3p0.maxIdleTime">25000</property>
+        <property name="hibernate.c3p0.testConnectionOnCheckout ">true</property>
+
+        <!--表映射 -->
+    </session-factory>
+</hibernate-configuration> 
