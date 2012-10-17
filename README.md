@@ -23,4 +23,22 @@ Show me the code, one day a week.
  * [0831](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0831)
   * [豆瓣数据获取](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0831) @nomospace
 
+## Authors
+
+Below is the output from `git-summary`.
+
+```
+ project  : show-me-the-code
+ repo age : 7 weeks
+ active   : 8 days
+ commits  : 14
+ files    : 39
+ authors  : 
+     8	nomospace               57.1%
+     3	no more space           21.4%
+     2	dongLeo                 14.3%
+     1	jfzlnyf                 7.1%
+```
+
+
 Linus: ["Talk is cheap. Show me the code."](https://lkml.org/lkml/2000/8/25/132) 
