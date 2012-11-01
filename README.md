@@ -7,7 +7,7 @@ Show me the code, one day a week.
 
 * [2012](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012)
  * [1101](https://github.com/rocketxujia/html5-demos)
-  * [html5 demos](https://github.com/rocketxujia/html5-demos) my learning experience of html5 new api learning 会持续更新中... @nomospace
+  * [html5 demos](https://github.com/rocketxujia/html5-demos) my learning experience of html5 new api learning 会持续更新中... @rocketxujia
  * [1017](https://github.com/nomospace/match-game)
   * [A stupid match-game](https://github.com/nomospace/match-game) @nomospace
  * [1009](https://github.com/sdg-sysdev/waybo)
