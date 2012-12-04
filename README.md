@@ -8,12 +8,14 @@ Show me the code, one day a week.
 * [2012](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012)
  	- [1204](https://github.com/nomospace/foto)
 		- [Foto: 基于 Phonegap 的相册应用](https://github.com/nomospace/foto) 开发中 @nomospace
+	- [1117](https://github.com/nomospace/nodemail)
+		- [Nodemail: 基于 Node.js 的 mail 应用](https://github.com/nomospace/nodemail) @nomospace
 	- [1101](https://github.com/rocketxujia/html5-demos)
 		- [html5 demos](https://github.com/rocketxujia/html5-demos) my learning experience of html5 new api learning 会持续更新中... @rocketxujia
  	- [1017](https://github.com/nomospace/match-game)
-  		- [A stupid match-game](https://github.com/nomospace/match-game) @nomospace
+  		- [简易连连看](https://github.com/nomospace/match-game) @nomospace
  	- [1009](https://github.com/sdg-sysdev/waybo)
-		- [Waybo: A simple web-weibo base on nodejs](https://github.com/sdg-sysdev/waybo) @nomospace
+		- [Waybo: 基于 Node.js 的新浪微博应用](https://github.com/sdg-sysdev/waybo) @nomospace
  	- [0928](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0928)
 		- [浏览器端简易日志输出工具](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0928) @nomospace
 	- [0921](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0921)
@@ -35,7 +37,7 @@ Below is the output from `git-summary`.
  project  : show-me-the-code
  repo age : 12 weeks
  active   : 8 days
- commits  : 19
+ commits  : 20
  files    : 39
  authors  : 
      10	nomospace               57.1%
