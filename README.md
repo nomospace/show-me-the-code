@@ -15,11 +15,11 @@ Show me the code, one day a week.
 	- [1117](https://github.com/nomospace/nodemail)
 		- [Nodemail: 基于 Node.js 的 mail 应用](https://github.com/nomospace/nodemail) @nomospace
 	- [1101](https://github.com/rocketxujia/html5-demos)
-		- [html5 demos](https://github.com/rocketxujia/html5-demos) my learning experience of html5 new api learning 会持续更新中... @rocketxujia
+		- [HTML5 demos](https://github.com/rocketxujia/html5-demos) My learning experience of HTML5 new api @rocketxujia
  	- [1017](https://github.com/nomospace/match-game)
   		- [简易连连看](https://github.com/nomospace/match-game) @nomospace
- 	- [1009](https://github.com/sdg-sysdev/waybo)
-		- [Waybo: 基于 Node.js 的新浪微博应用](https://github.com/sdg-sysdev/waybo) @nomospace
+ 	- [1009](https://github.com/nomospace/waybo)
+		- [Waybo: 基于 Node.js 的新浪微博应用](https://github.com/nomospace/waybo) @nomospace
  	- [0928](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0928)
 		- [浏览器端简易日志输出工具](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0928) @nomospace
 	- [0921](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012/0921)
