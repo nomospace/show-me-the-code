@@ -5,10 +5,6 @@ Show me the code, one day a week.
 
 ## List
 
-* [2013](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2013)
- 	- [0115](https://github.com/nomospace/travelog)
-		- [Travelog: 旅游类网站](https://github.com/nomospace/travelog) 开发中 @nomospace
-
 * [2012](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012)
  	- [1204](https://github.com/nomospace/foto)
 		- [Foto: 基于 Phonegap 的相册应用](https://github.com/nomospace/foto) 开发中 @nomospace
