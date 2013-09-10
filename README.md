@@ -6,8 +6,6 @@ Show me the code, one day a week.
 ## List
 
 * [2012](https://github.com/sdg-sysdev/show-me-the-code/tree/master/2012)
- 	- [1204](https://github.com/nomospace/foto)
-		- [Foto: 基于 Phonegap 的相册应用](https://github.com/nomospace/foto) 开发中 @nomospace
 	- [1117](https://github.com/nomospace/nodemail)
 		- [Nodemail: 基于 Node.js 的 mail 应用](https://github.com/nomospace/nodemail) @nomospace
 	- [1101](https://github.com/rocketxujia/html5-demos)
